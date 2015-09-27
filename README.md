@@ -64,7 +64,7 @@ function updateFilter( tween, obj ) {
 ```
 See in action: http://codepen.io/jeanpaze/pen/gaPqeK
 
-Config Properties
+Config
 -------
 
 ### element
