@@ -90,6 +90,6 @@ Thanks
 
 © 2015 Jean Paze. Released under the [MIT License](License.txt).
 
-> CodePen [codepen.io/jeanpaze](http://codepen.io/jeanpaze/)
-> Twitter [@jpaze](http://twitter.com/jpaze)
+> CodePen [codepen.io/jeanpaze](http://codepen.io/jeanpaze/) <br>
+> Twitter [@jpaze](http://twitter.com/jpaze) <br>
 > Facebook [facebook.com/jeanpaze](https://www.facebook.com/jeanpaze)
