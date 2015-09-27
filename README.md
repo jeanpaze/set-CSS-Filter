@@ -1,4 +1,4 @@
-# setCSSFilter.js
+# Set CSS Filter
 
 Set CSS Filter is a library to help you applying CSS Filters. Can be called during an update function of any JS tween library.
 
