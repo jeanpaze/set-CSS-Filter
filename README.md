@@ -2,6 +2,19 @@
 
 Set CSS Filter is a library to help you applying CSS Filters. Can be called during an update function of any JS tween library or just a single call.
 
+Should works on:
+* Edge 13+;
+* Firefox 35+;
+* Safari 6+;
+* Opera 15+;
+* Safari & Chrome for iOS 6+;
+* Android Browser 4.4+;
+* Blackberry Browser 10+;
+* Opera 30+ for Android;
+* Chrome 44+ for Android;
+* Firefox 40+ for Android;
+* UC Browser 9.9+ for Android;
+
 Usage
 -----
 
