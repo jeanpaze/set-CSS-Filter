@@ -5,7 +5,7 @@ Set CSS Filter is a library to help you applying CSS Filters. Can be called duri
 Usage
 -----
 
-Just include [setcssfilter.js].
+Just include (setcssfilter.js).
 
 ``` html
 <script type='text/javascript' src='setcssfilter.js'></script>
