@@ -18,7 +18,7 @@ Should works on:
 Usage
 -----
 
-Just include [setcssfilter.js]:
+Just include [setcssfilter.js](setcssfilter.js):
 
 ``` html
 <script type='text/javascript' src='setcssfilter.js'></script>
