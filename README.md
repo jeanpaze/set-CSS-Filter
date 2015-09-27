@@ -8,13 +8,13 @@ Usage
 Just include [setcssfilter.js].
 
 ``` html
-<script src='setcssfilter.js'></script>
+<script type='text/javascript' src='setcssfilter.js'></script>
 ```
 
 Or the [minified version](setcssfilter.min.js)
 
 ``` html
-<script src='setcssfilter.min.js'></script>
+<script type='text/javascript' src='setcssfilter.min.js'></script>
 ```
 
 [MIT License](License.txt) © 2015 Jean Paze (http://twitter.com/jpaze).
