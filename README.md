@@ -75,7 +75,7 @@ The DOM element to set.
 
 Object with config params:
 
-* progress: Value between 0 and 1';
+* progress: Value between 0 and 1;
 * filter: Filter name to be applied, see list here: https://developer.mozilla.org/en-US/docs/Web/CSS/filter;
 * start: Start value. If filter is 'drop-shadow', this param need to be an array;
 * end: End value. If filter is 'drop-shadow', this param need to be an array;
@@ -90,7 +90,6 @@ Thanks
 
 © 2015 Jean Paze. Released under the [MIT License](License.txt).
 
-> CodePen [codepen.io/jeanpaze](http://codepen.io/jeanpaze/) &nbsp;&middot;&nbsp;
-> Twitter [@jpaze](http://twitter.com/jpaze) &nbsp;&middot;&nbsp;
+> CodePen [codepen.io/jeanpaze](http://codepen.io/jeanpaze/)
+> Twitter [@jpaze](http://twitter.com/jpaze)
 > Facebook [facebook.com/jeanpaze](https://www.facebook.com/jeanpaze)
-[MIT License](License.txt) © 2015 Jean Paze (http://twitter.com/jpaze).
