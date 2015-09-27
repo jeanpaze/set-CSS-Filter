@@ -11,7 +11,7 @@ Just include [setcssfilter.js].
 <script src='setcssfilter.js'></script>
 ```
 
-Or the minified version.
+Or the [minified version](setcssfilter.min.js)
 
 ``` html
 <script src='setcssfilter.min.js'></script>
