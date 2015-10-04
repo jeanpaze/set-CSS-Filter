@@ -1,5 +1,5 @@
 /*!
- * VERSION: 0.1.0
+ * VERSION: 0.1.1
  * DATE: 2015-09-27
  *
  * Copyright 2015, Jean Paze (@jpaze)
@@ -19,20 +19,27 @@
   }
 }(this, function () {
   var setCSSFilter = function( target, obj ){
+    if( target.length ){
+      for (var i = 0; i < target.length; i++) {
+        setCSSFilter( target[ i ], obj );
+      };
+      return;
+    };
+
     var styles = window.getComputedStyle(document.documentElement, '');
     var vendorPrefix = (Array.prototype.slice.call(styles).join('').match(/-(moz|webkit|ms)-/) || (styles.OLink === '' && ['', 'o']))[1];
-    var prop = 'filter';
-        prop = (vendorPrefix === 'webkit') ? '-webkit-filter' : prop;
+    var prop = (vendorPrefix === 'webkit') ? '-webkit-filter' : 'filter';
     var progress = ( obj.progress * 100 ) >> 0;
-    var filterProgress = ( obj.filter != 'drop-shadow' ) ? ( Math.abs( obj.start - obj.end ) / 100 * progress ) : 0;
-    var value = ( obj.filter != 'drop-shadow' ) ? ( ( obj.start < obj.end ) ? obj.start + filterProgress : obj.start - filterProgress ) : 0;
+    var noDS = obj.filter != 'drop-shadow';
+    var filterProgress = noDS ? ( Math.abs( obj.start - obj.end ) / 100 * progress ) : 0;
+    var value = noDS ? ( ( obj.start < obj.end ) ? obj.start + filterProgress : obj.start - filterProgress ) : 0;
     var currentFilters = getFilters( { target:target, remove:obj.filter, prop:prop } );
     var addFilter;
     var unit = ( obj.filter == 'blur' ) ? 'px' : '';
         unit = ( obj.filter == 'hue-rotate' ) ? 'deg' : unit;
         unit = ( obj.filter != 'hue-rotate' && obj.filter != 'blur' ) ? '%' : unit;
 
-    if( obj.filter == 'drop-shadow' ){
+    if( !noDS ){
         var startX = obj.start[ 0 ];
         var startY =  obj.start[ 1 ];
         var startBlur = obj.start[ 2 ];
