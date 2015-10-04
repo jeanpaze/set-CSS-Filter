@@ -15,6 +15,12 @@ Should works on:
 * Firefox 40+ for Android;
 * UC Browser 9.9+ for Android;
 
+Releases
+-----
+
+- **0.1.1** - Added the ability to pass an array with DOM Elements + performance improvements.
+- **0.1.0** - Initial beta release.
+
 Usage
 -----
 
@@ -82,7 +88,7 @@ Config
 
 ### element
 
-The DOM element to set.
+The DOM element or an array of DOM elements to set.
 
 ### object
 
