@@ -1,6 +1,6 @@
 # Set CSS Filter
 
-Set CSS Filter is a library to help you applying CSS Filters. Can be called during an update function of any JS tween library or just a single call.
+Set CSS Filter is a library to help you applying CSS Filters. Can be called during a update function of any JS tween library or just a single call.
 
 Should works on:
 * Edge 13+;
@@ -18,7 +18,7 @@ Should works on:
 Releases
 -----
 
-- **0.1.1** - Added the ability to pass an array with DOM Elements + performance improvements.
+- **0.1.1** - Added the ability to pass a array with DOM Elements + performance improvements.
 - **0.1.0** - Initial beta release.
 
 Usage
@@ -60,9 +60,9 @@ setCSSFilter( image, { progress:1, filter:"blur", start:0, end:4 } );
 setCSSFilter( image, { progress:1, filter:"opacity", start:100, end:0 } );
 ```
 
-That filter applying is cumulative, so you can set multiples filters at the same time. If you want to remove a filter, you need to call again changing the 'start' and 'end' params.
+That filter applying is cumulative, so you can set multiples filters at the same time. If you want to remove filter, you need to call again changing the 'start' and 'end' params.
 
-You can call during an updating tween as this TimelineMax example:
+You can call during a updating tween as this TimelineMax example:
 
 ``` html
 var progressEase = { value:0 };
@@ -88,7 +88,7 @@ Config
 
 ### element
 
-The DOM element or an array of DOM elements to set.
+The DOM element or a array of DOM elements to set.
 
 ### object
 
