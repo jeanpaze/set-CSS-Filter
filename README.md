@@ -78,7 +78,7 @@ var tl = new TimelineMax( { repeat:-1 } );
     tl.to( progressEase, 1, { value:0, ease:Linear.easeNone, onUpdate:updateFilter, onUpdateParams:[ "{self}", { filter: 'grayscale', start:0, end:100 } ] } );
 
 function updateFilter( tween, obj ) {
-    setCSSFilter( element, { progress:tween.target.value, filter:obj.filter, start:obj.start, end:obj.end } );
+    setCSSFilter( [DOM-ELEMENT], { progress:tween.target.value, filter:obj.filter, start:obj.start, end:obj.end } );
 };
 ```
 See in action: http://codepen.io/jeanpaze/pen/gaPqeK
