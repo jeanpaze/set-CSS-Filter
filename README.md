@@ -39,25 +39,25 @@ Or the [minified version](setcssfilter.min.js):
 Then set CSS filter with available calls:
 
 ``` html
-setCSSFilter( image, { progress:1, filter:"hue-rotate", start:0, end:360 } );
+setCSSFilter( [DOM-ELEMENT], { progress:1, filter:"hue-rotate", start:0, end:360 } );
 
-setCSSFilter( image, { progress:1, filter:"brightness", start:100, end:200 } );
+setCSSFilter( [DOM-ELEMENT], { progress:1, filter:"brightness", start:100, end:200 } );
 
-setCSSFilter( image, { progress:1, filter:"drop-shadow", start:[ 0, 0, 0, '#000000', 1 ], end:[ 10, 10, 8, '#000000', 1 ] } );
+setCSSFilter( [DOM-ELEMENT], { progress:1, filter:"drop-shadow", start:[ 0, 0, 0, '#000000', 1 ], end:[ 10, 10, 8, '#000000', 1 ] } );
 
-setCSSFilter( image, { progress:1, filter:"contrast", start:100, end:200 } );
+setCSSFilter( [DOM-ELEMENT], { progress:1, filter:"contrast", start:100, end:200 } );
 
-setCSSFilter( image, { progress:1, filter:"saturate", start:100, end:500 } );
+setCSSFilter( [DOM-ELEMENT], { progress:1, filter:"saturate", start:100, end:500 } );
 
-setCSSFilter( image, { progress:1, filter:"sepia", start:0, end:100 } );
+setCSSFilter( [DOM-ELEMENT], { progress:1, filter:"sepia", start:0, end:100 } );
 
-setCSSFilter( image, { progress:1, filter:"grayscale", start:0, end:100 } );
+setCSSFilter( [DOM-ELEMENT], { progress:1, filter:"grayscale", start:0, end:100 } );
 
-setCSSFilter( image, { progress:1, filter:"invert", start:0, end:100 } );
+setCSSFilter( [DOM-ELEMENT], { progress:1, filter:"invert", start:0, end:100 } );
 
-setCSSFilter( image, { progress:1, filter:"blur", start:0, end:4 } );
+setCSSFilter( [DOM-ELEMENT], { progress:1, filter:"blur", start:0, end:4 } );
 
-setCSSFilter( image, { progress:1, filter:"opacity", start:100, end:0 } );
+setCSSFilter( [DOM-ELEMENT], { progress:1, filter:"opacity", start:100, end:0 } );
 ```
 
 That filter applying is cumulative, so you can set multiples filters at the same time. If you want to remove filter, you need to call again changing the 'start' and 'end' params.
@@ -102,13 +102,14 @@ Object with config params:
 Support
 -------
 
-To suggest a feature, report a bug or general discussion: https://github.com/JeanCPz/set-CSS-Filter/issues
+To suggest a feature, report a bug or general discussion: https://github.com/jeanpaze/set-CSS-Filter/issues
 
 Thanks
 ------
 
-© 2015 Jean Paze. Released under the [MIT License](LICENSE).
+© 2016 [Jean Paze](http://jeanpaze.com/). Released under the [MIT License](LICENSE).
 
+> Jean Paze [jeanpaze.com](http://jeanpaze.com/) <br>
 > CodePen [codepen.io/jeanpaze](http://codepen.io/jeanpaze/) <br>
 > Twitter [@jpaze](http://twitter.com/jpaze) <br>
 > Facebook [facebook.com/jeanpaze](https://www.facebook.com/jeanpaze)
