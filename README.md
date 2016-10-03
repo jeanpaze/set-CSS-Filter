@@ -107,7 +107,7 @@ To suggest a feature, report a bug or general discussion: https://github.com/Jea
 Thanks
 ------
 
-© 2015 Jean Paze. Released under the [MIT License](License.txt).
+© 2015 Jean Paze. Released under the [MIT License](LICENSE).
 
 > CodePen [codepen.io/jeanpaze](http://codepen.io/jeanpaze/) <br>
 > Twitter [@jpaze](http://twitter.com/jpaze) <br>
